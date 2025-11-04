@@ -47,7 +47,7 @@ Each record can be created, viewed, and listed through this Node.js app.
 
 ## ⚙️ Setup Instructions
 
-1. Clone this repository:
+1. Clone this repository
 2. Install dependencies:
    npm install
 3. Create a .env file locally (do not push this to GitHub):
