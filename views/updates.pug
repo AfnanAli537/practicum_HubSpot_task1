@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/style.css")
+  body
+    h1 Add a New Pet 🐾
+
+    form(action="/update-cobj" method="POST")
+      label(for="pet_name") Pet Name:
+      input(type="text" id="pet_name" name="pet_name" required)
+
+      br
+
+      label(for="pet_type") Pet Type:
+      input(type="text" id="pet_type" name="pet_type" required)
+
+      br
+
+      button(type="submit") Add Pet
+
+    a(href="/") ← Back to Pet List

@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    h1 Pet List
+    a(href="/update-cobj") Add to this table
+    if pets.length
+      table
+        thead
+          tr
+            th Pet Name
+            th Pet Type
+        tbody
+          each pet in pets
+            tr
+              td= pet.properties.pet_name
+              td= pet.properties.pet_type
+    else
+      p No pets found.
