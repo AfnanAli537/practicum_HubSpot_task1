@@ -20,7 +20,7 @@ Each record can be created, viewed, and listed through this Node.js app.
 ## 🔗 Custom Object List View (required link)
 
 **Custom Object URL:**  
-[View Pet Records in HubSpot](https://app.hubspot.com/contacts/147156219/objects/2-194228293/views/all/list)
+[View Pet Records in HubSpot](https://app-eu1.hubspot.com/contacts/147127607/objects/2-194228293/views/all/list)
 
 ---
 
